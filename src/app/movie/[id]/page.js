@@ -18,7 +18,7 @@ const Movie = async ({ params }) => {
   const main_data = data[0].details;
 
   return (
-    <div className="px-60 p-10 ">
+    <div className="px-20 p-10 h-screen ">
       <p className="text-xl mb-2 text-bold">
         Movieflix \
         <span className="text-capatilize text-rose-400">{main_data.type}</span>
@@ -29,7 +29,7 @@ const Movie = async ({ params }) => {
           className="rounded-lg"
           alt={main_data.title}
           width={600}
-          height={300}
+          height={600}
         />
       </div>
       <div>

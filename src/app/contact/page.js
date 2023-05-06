@@ -4,7 +4,7 @@ import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 const ContactPage = () => {
   return (
-    <div>
+    <div className="h-max">
       <h1 className="text-3xl font-semibold  text-center mt-3 ">Contact Us</h1>
       <div className="grid grid-flow-row md:grid-cols-2 md:gap-3 lg:grid-cols-3 p-9">
         <div className="flex flex-col gap-2 font-sans items-center bg-slate-100 p-6 rounded-lg transition duration-300 ease-in-out transform hover:ease-out hover:-translate-y-1 hover:shadow-2xl cursor-pointer">

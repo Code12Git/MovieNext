@@ -6,75 +6,166 @@ import Stack from "@mui/material/Stack";
 import LinearProgress from "@mui/material/LinearProgress";
 const Footer = () => {
   return (
-    <div className="bg-zinc-950	 p-4 font-serif mt-20">
-      <div className="flex items-center justify-around">
-        <h1 className="text-2xl text-slate-100">Movie Buzz</h1>
-        <div className="flex gap-3">
-          <Image src="/facebook.png" alt="facebook" height={30} width={30} />
-          <Image src="/twitter.png" alt="facebook" height={30} width={30} />
-          <Image src="/instagram.png" alt="facebook" height={30} width={30} />
-          <Image src="/linkedin.png" alt="facebook" height={30} width={30} />
-          <Image src="/youtube.png" alt="facebook" height={30} width={30} />
+    <footer class="text-gray-600 body-font bg-black mt-4  ">
+      <div class="container px-5 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <span class="ml-3 text-2xl text-white">MovieBuzz</span>
+          </a>
+          <p class="mt-2 text-sm text-gray-500">A store for all movies</p>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font  text-white font-medium  tracking-widest text-md mb-3">
+              Company
+            </h2>
+            <nav class="list-none mb-10 cursor-pointer">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Home</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">About us</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Get Started</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium  text-white tracking-widest text-md mb-3">
+              Services
+            </h2>
+            <nav class="list-none mb-10 cursor-pointer">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">App design</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Web design</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Logo design</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Banner design</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font text-md font-medium  text-white tracking-widest  mb-3">
+              Account
+            </h2>
+            <nav class="list-none mb-10 cursor-pointer">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Profile</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">My account</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Preferences</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Purchase</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font text-md  text-white font-medium  tracking-widest  mb-3">
+              COURSES
+            </h2>
+            <nav class="list-none mb-10 cursor-pointer">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">HTML & CSS</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Javascipt</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Photography</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Photoshop</a>
+              </li>
+            </nav>
+          </div>
         </div>
       </div>
-      <div className="flex justify-evenly p-5">
-        <div className="flex item-center gap-24">
-          <div className="flex flex-col gap-1">
-            <h1 className="text-slate-100">Company</h1>
-            <Stack sx={{ width: "60%", color: "grey.500" }} spacing={2}>
-              <LinearProgress color="success" />
-            </Stack>
-            <p className="text-gray-100 opacity-40">Home</p>
-            <p className="text-gray-100 opacity-40">Contact us</p>
-            <p className="text-gray-100 opacity-40">About us</p>
-            <p className="text-gray-100 opacity-40">Get Started</p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <h1 className="text-slate-100">Services</h1>
-            <Stack sx={{ width: "50%", color: "grey.500" }} spacing={2}>
-              <LinearProgress color="success" />
-            </Stack>
-            <p className="text-gray-100 opacity-40">App design</p>
-            <p className="text-gray-100 opacity-40">Web design</p>
-            <p className="text-gray-100 opacity-40">Logo design</p>
-            <p className="text-gray-100 opacity-40">Banner design</p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <h1 className="text-slate-100">Account</h1>
-            <Stack sx={{ width: "60%", color: "grey.500" }} spacing={2}>
-              <LinearProgress color="success" />
-            </Stack>
-            <p className="text-gray-100 opacity-40"> Profile</p>
-            <p className="text-gray-100 opacity-40">My account</p>
-            <p className="text-gray-100 opacity-40">Preferences</p>
-            <p className="text-gray-100 opacity-40">Purchase</p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <h1 className="text-slate-100">Courses</h1>
-            <Stack sx={{ width: "50%", color: "grey.500" }} spacing={2}>
-              <LinearProgress color="success" />
-            </Stack>
-            <p className="text-gray-100 opacity-40">HTML & CSS</p>
-            <p className="text-gray-100 opacity-40">Javascript</p>
-            <p className="text-gray-100 opacity-40">Photography</p>
-            <p className="text-gray-100 opacity-40">Photoshop</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-2">
-          <p className="text-slate-100">Subscribe</p>
-          <Stack sx={{ width: "40%", color: "grey.500" }} spacing={2}>
-            <LinearProgress color="success" />
-          </Stack>
-          <input
-            className="p-1 rounded-md border border-white bg-black text-white"
-            type="text"
-            placeholder="Enter your email"
-            style={{ paddingLeft: "10px" }}
-          />
-          <button className="bg-slate-100 p-1 rounded-md">Subscribe</button>
+      <div class="bg-black ">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-500 text-sm text-center sm:text-left">
+            © 2023 MovieBuzz —
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              class="text-gray-600 ml-1"
+              target="_blank"
+            >
+              @saxenasaksham
+            </a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start cursor-pointer">
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

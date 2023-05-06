@@ -6,7 +6,7 @@ const MovieCard = (element) => {
   return (
     <>
       <Link href={`/movie/${id}`}>
-        <div className="rounded overflow-hidden shadow-lg max-w-sm transition duration-300 ease-in-out transform hover:ease-in hover:-translate-y-1 hover:shadow-2xl cursor-pointer my-4 ">
+        <div className="rounded overflow-hidden shadow-lg lg:max-w-sm xl:max-w-sm md:max-w-sm sm:max-w-sm sm:w-96 md:w-96 lg:w-96 xl:w-96 w-72  transition duration-300 ease-in-out transform hover:ease-in hover:-translate-y-1 hover:shadow-2xl cursor-pointer my-4 ">
           <Image
             src={element.jawSummary.backgroundImage.url}
             alt="Image"
@@ -20,7 +20,7 @@ const MovieCard = (element) => {
           </div>
           <div className="mx-28 p-4">
             <Link href={`/movie/${id}`}>
-              <button className="bg-slate-300 hover:bg-slate-400 p-2 rounded-full w-32">
+              <button className="bg-slate-300 hover:bg-slate-400 p-2  rounded-full w-32">
                 Read More
               </button>
             </Link>

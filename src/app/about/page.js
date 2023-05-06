@@ -6,7 +6,7 @@ const Page = () => {
     <div className="flex flex-col h-screen bg-gray-900 text-white">
       <MainSection
         title="Our Story"
-        desc=" Welcome to MovieFlix! We are a team of movie enthusiasts dedicated to
+        desc=" Welcome to MovieBuzz! We are a team of movie enthusiasts dedicated to
 providing you with the latest and greatest films from around the
 world. Our mission is to help you discover new and exciting movies
 that will entertain, inspire, and captivate you. We understand that

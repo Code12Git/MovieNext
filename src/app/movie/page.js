@@ -19,7 +19,7 @@ const Page = async () => {
 
   return (
     <>
-      <section className="">
+      <section>
         <div>
           <h1 className="text-2xl text-gray-600 text-center font-semibold mt-3 ">
             Series & Movie{" "}
